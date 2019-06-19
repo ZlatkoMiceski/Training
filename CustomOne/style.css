@@ -1,0 +1,150 @@
+h1 {
+    color: #0c5460;
+}
+.socialmedia {
+    padding: 5px;
+    background-color: #F2EFED;
+}
+.socialmediarow {
+    padding-left: 10%;
+}
+i {
+    padding-right: 8px;
+    padding-left: 5px;
+    color: gray;
+}
+i:not(:last-child) {
+    border-right: solid;
+    border-right-width: 1px;
+    border-right-color: gray;
+}
+i:hover {
+    color: black;
+}
+.marks {
+    margin-top: 50px;
+}
+.marks li {
+    margin-left: -8px;
+}
+.marks li a {
+    color: gray;
+}
+.marks li a:hover {
+    color: black;
+    background-color: white;
+}
+.navbar-default {
+    background-color: white;
+    border-style: none;
+}
+.carousel-caption h3 {
+    max-width:200px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgba(1, 1, 1, 0.6);
+}
+.carousel-caption p {
+    max-width:200px;
+    margin-top: -8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgba(1, 1, 1, 0.6);
+}
+.circle:before {
+    content: ' \25CF';
+    font-size: 150px;
+    color: #E85517;
+}
+.text-center h3 {
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -40px;
+}
+.text-center div p a {
+    color: #E85517;
+}
+.text-left {
+    padding-top: 40px;
+}
+.text-left div h4 {
+    font-weight: 900;
+}
+.text-left div p a {
+    color: #E85517;
+}
+.footercolor {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer .col-lg-2 h3 {
+    padding-bottom: 10px;
+}
+.footer .col-lg-2 p {
+    margin-bottom: 1px;
+}
+.footer .col-lg-2 p:hover {
+    opacity: 0.6;
+}
+.footer .fa {
+    padding: 5px;
+    font-size: 15px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+}
+.footer .fa:hover {
+    opacity: 0.7;
+}
+.footer .fa span {
+    margin-left: 25px;
+}
+.second {
+    position: absolute;
+    left:150px;
+}
+.footer .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.footer .fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.footer .fa-google {
+    background: #dd4b39;
+    color: white;
+}
+.footer .fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+.footer .fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.footer .fa-rss {
+    background: #ff6600;
+    color: white;
+}
+.footer2 {
+    border-top-style: solid;
+    border-top-color: white;
+    border-width: 1px;
+    padding-top: 10px;
+    color: gray;
+}
+.footer2 .col-lg-8 a {
+    text-decoration: none;
+    color: gray;
+}
+.footer2 .col-lg-8 a:hover {
+    color: white;
+}
