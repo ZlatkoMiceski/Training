@@ -1,0 +1,332 @@
+@link-color: yellow;
+@link-color-hover:  darken(@link-color, 15%);
+@image: "images";
+
+@red: #aa0505;
+@redhover: darken(@red, -5%);
+@green: #76BD1D;
+@bordercolor: #EDEDED;
+@footercolor: #383838;
+//h5 {
+//  background-image: url("@{image}/rt2.jpg");
+//  color: @link-color;
+//}
+//h1:hover {
+//  color: @link-color-hover;
+//}
+
+
+
+.row {
+  padding-right: 3%;
+  padding-left: 3%;
+  &:not(:first-child):not(.footer) {
+    margin-bottom: 20px;
+  }
+}
+.blackheader {
+  background-color: black;
+  margin-bottom: 20px;
+  .row:first-child {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: white;
+  }
+  .row:nth-child(2)
+  {
+    height: 30px;
+  }
+}
+.rt-logo {
+  width: 80px;
+  background-color: @green;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  float: left;
+  h2 {
+    padding-left: 15px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+}
+a {
+  color: black;
+}
+a:hover {
+  color: black;
+}
+.questionmore {
+  margin-top: 7px;
+  margin-left: 10px;
+  float: left;
+  h2 a {
+    color: white;
+  }
+  h2 a:hover {
+    text-decoration: none;
+  }
+}
+.buttonlive {
+  display: inline-block;
+  background-color: @red;
+  color: white;
+  margin-top: 26px;
+  margin-left: 20px;
+}
+.btn {
+  background-color: @red;
+  color: white;
+  &:hover {
+    background-color: @redhover;
+    color: white;
+  }
+}
+.navbar-collapse, .navbar-default {
+  background-color: black;
+  border-style: none;
+
+}
+.marks li {
+  margin-left: 3%;
+    a strong {
+    color: white;
+  }
+}
+.marks li:hover {
+  background-color: gray;
+}
+.collapse ul {
+  width: 100%;
+}
+.responsive {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+.responsive1 {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+.titles {
+  margin-top: -15px;
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+    &:focus {
+      color: black;
+      text-decoration: none;
+    }
+    h4 {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-bottom: -10px;
+      border-top-style: solid;
+      border-top-color: @bordercolor;
+      border-top-width: 1px;
+      &:hover:before {
+        content: "";
+        position: absolute;
+        width: 1px;
+        height: 7%;
+        background: @red;
+        padding-left: 5px;
+        margin-left: -30px;
+      }
+      &:hover {
+        color: @redhover;
+      }
+    }
+  }
+}
+.popular {
+  h5 {
+    text-align: center;
+    max-width: 80px;
+    background-color: @red;
+    color: white;
+    padding: 5px;
+  }
+}
+
+
+.borderbox {
+  border-style: solid;
+  border-width: 1px;
+  border-color: @bordercolor;
+}
+.hoverclass:hover {
+  color: @red;
+}
+
+
+.newsline {
+  margin-top: 30px;
+  margin-right: 5px;
+  margin-left: 1px;
+  div h5 {
+    font-weight: bold;
+  }
+  span a {
+    margin-left: -15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: @red;
+    color: white;
+    &:hover {
+      text-decoration: none;
+      background-color: @redhover;
+    }
+  }
+}
+.buttons  {
+  margin-top: 5px;
+  margin-left: 5%;
+  .bt1 {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .bt2 {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+}
+.articlwithpic {
+  padding: 3px;
+}
+.articllist h4 {
+  margin-bottom: 30px;
+}
+
+.titleinpic h3 {
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  a {
+    color: white;
+  }
+}
+
+
+.footer {
+  background-color: @footercolor;
+  h5 a {
+    color: white;
+    padding-right: 5%;
+    &:hover {
+      text-decoration: none;
+      color: hotpink;
+    }
+  }
+  p {
+    color: gray;
+    display: inline-block;
+    margin-right: 5%;
+  }
+  i {
+    font-size: 30px;
+    color: #FEFEFE;
+    display: inline-block;
+    margin-right: 5%;
+    &:hover {
+      color: white;
+    }
+  }
+  .rtshop {
+    background-color: @green;
+    color: black;
+    margin-top: 15px;
+    padding: 7px;
+    span {
+      background-color: @footercolor;
+      color: white;
+      margin-left: 3px;
+      margin-right: -5px;
+      padding-left: 12px;
+      padding-right: 12px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+  }
+  h6 {
+    font-size: 14px;
+    a {
+      color: white;
+      &:hover {
+        text-decoration: none;
+        color: hotpink;
+      }
+    }
+    .green {
+      color: @green;
+    }
+  }
+  .blue h6 a {
+    color: #8ec7f1;
+    &:hover {
+      color: hotpink;
+    }
+  }
+  .rt-logogray {
+    background-color: gray;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    display: inline-block;
+  }
+  p {
+    padding-left: 10px;
+    display: inline-block;
+  }
+}
+
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 1px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+@media only screen and (max-width: 1026px) {
+  .buttons {
+    display: none;
+  }
+  .titleinpic h3 {
+    position: static;
+    a {
+      color: black;
+      &:hover {
+        color: @red;
+      }
+    }
+  }
+}
